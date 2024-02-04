@@ -15,19 +15,20 @@ docker run --rm -d -it -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 
 ## Acesso do RabbitMQ
 
+* Local
 ```
 http://localhost:15672/#/queues
 ```
-Username: 
+* Username: 
 ```
 guest
 ```
-Password:
+* Password:
 ```
  guest
 ```
 
-Clone do repositorio, executar projeto na sua ide
+* Clonar o repositorio e executar o projeto na sua IDE
 
 ```
 - git clone https://github.com/CintiaSilva7300/financial-transaction.git
@@ -48,7 +49,7 @@ Clone do repositorio, executar projeto na sua ide
 * Nessa requição enviar um arquivo no formato csv para que ele seja processado e enviado para uma fila no Rabbitmq
 * Acessar o caminho para fazer a requicição o tipo 'POST' no postman http://localhost:8080/api/financial-upload
 
-Local:
+* Local:
 ```
 http://localhost:8080/api/financial-upload
 ```
